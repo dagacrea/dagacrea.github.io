@@ -1,6 +1,20 @@
-body { background-color: blueviolet;
+body { background-color:blue;
 }
 
-nav { background-color: violet;
+nav { background-color:darkblue;
+color: white ;
 
+width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
+height: 20vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */
+  }
+  
 }
+.daga {
+    background: none; /* Asegura que no haya un fondo definido */
+    border: none; /* Elimina cualquier borde que pueda tener la imagen */
+  }
+div{
+    border-color: white;
+}
+
+
