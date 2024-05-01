@@ -10,9 +10,11 @@ width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
 height: 20vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */}
 
 
+li:hover{
+    background-color: white;
+}
 
-
-li.hover{
+li{
     display: inline;
     margin-left: 2cm;
     margin-right: 2cm;
