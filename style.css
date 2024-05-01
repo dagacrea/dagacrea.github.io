@@ -8,13 +8,76 @@ width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
 height: 20vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */
   }
   
-}
+.nav{
+    margin-right: 50px;
+        list-style-type: none;
+        display: inline;
+        text-align: right;
+    }
+.nav.li{
+    list-style-type: none;
+    display: inline;}
 .daga {
     background: none; /* Asegura que no haya un fondo definido */
     border: none; /* Elimina cualquier borde que pueda tener la imagen */
   }
 div{
-    border-color: white;
+    display: flex;
+    color: white;
+    font-family:  Arial, sans-serif;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+}
+.inicio{
+    display: flex;
+    color: white;
+    font-family:  Arial, sans-serif;
+    width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
+    height: 60vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+}
+img{
+width:150px;
+height: 150px;
+}
+
+li{
+/*display: list-item;*/
+text-align: -webkit-match-parent;
+unicode-bidi: isolate;
+}
+.alias{
+    position:absolute;
+    left: 35%;
+    right: 65%;
+    margin-top: 4cm;
+    margin-bottom: 5cm;
+    font-family:sans-serif;
+    font-size:100px;
+    font-weight: 300px;
+
+
+}
+span{
+    border-radius: 4px;
+    background-color:cornflowerblue;
 }
 
 
+.tituloh1{
+    position:relative;
+    left: 20%;
+    right: 80%;
+    top: 50%;
+    bottom: 10%;
+    margin-top: 60px;
+    margin-bottom: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
