@@ -1,26 +1,34 @@
 body { background-color:blue;
 }
 
-nav { background-color:darkblue;
-color: white ;
 
+
+
+nav { background-color:darkblue;
+color:blanchedalmond ;
 width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
-height: 20vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */
-  }
+height: 20vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */}
   
-.nav{
-    margin-right: 50px;
-        list-style-type: none;
-        display: inline;
-        text-align: right;
-    }
-.nav.li{
-    list-style-type: none;
-    display: inline;}
+
+
+li{
+    display: inline;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+
+
+
+
+
+
 .daga {
     background: none; /* Asegura que no haya un fondo definido */
-    border: none; /* Elimina cualquier borde que pueda tener la imagen */
-  }
+    border: none; /* Elimina cualquier borde que pueda tener la imagen */}
+
+
+
 div{
     display: flex;
     color: white;
@@ -46,12 +54,8 @@ width:150px;
 height: 150px;
 }
 
-li{
-/*display: list-item;*/
-text-align: -webkit-match-parent;
-unicode-bidi: isolate;
-}
-.alias{
+
+.alias{   
     position:absolute;
     left: 35%;
     right: 65%;
@@ -60,9 +64,10 @@ unicode-bidi: isolate;
     font-family:sans-serif;
     font-size:100px;
     font-weight: 300px;
-
-
 }
+
+
+
 span{
     border-radius: 4px;
     background-color:cornflowerblue;
@@ -80,4 +85,9 @@ span{
     margin-left: 5px;
     margin-right: 5px;
    
+}
+
+.herramientas{
+    background-color: darkblue;
+    color: blanchedalmond;
 }
