@@ -6,7 +6,9 @@ body { background-color:blue;
 }
 a{
     text-decoration: none;
-    color:blanchedalmond ;
+    color:blanchedalmond;
+    
+
 }
 img{
     width:20vh;
@@ -31,8 +33,11 @@ div{
 }
 
 h2{
-    font-size: 15px;
+    align-items: center;
+    position:relative;
     font-family:"Rajdhani";
+    font-size:25px;
+    
 }   
 
 /*######################################################################################################################################*/
@@ -68,10 +73,10 @@ ul{
   margin: 0; /* Elimina el margen predeterminado */
   width: auto; /* Ocupa todo el ancho del contenedor */
   /*align-items: center;*/
-  border-top: 4px solid white;
+  /*border-top: 4px solid white;
     border-right: 4px solid white;
     border-bottom: 4px solid white;
-    border-left: 4px solid white;
+    border-left: 4px solid white;*/
 }
 
   
@@ -82,11 +87,28 @@ li:hover{
 li{
     text-align: center;
     display: inline-block;
-    /*margin-left: 2.2cm;
-    margin-right: 2.2cm;
-    padding-inline: 10px;*/
-    font-family:'staatliches'; 
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-inline: 10px;
+    font-family:"staatliches";
     height: 5vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */}
+
+
+/*##########################################################################################################################################
+nav
+##########################################################################################################################################*/
+
+
+    .navlist{
+        text-align: center;
+        display: inline-block;
+        margin-left: 2.2cm;
+        margin-right: 2.2cm;
+        /*padding-inline: 10px;*/
+        font-family:'staatliches'; 
+        height: 5vh; /* El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */}
+
+
 
 
 /*##########################################################################################################################################
@@ -107,7 +129,7 @@ inicio
     background-color:darkblue;
     width: 100%; /* El div ocupará el 100% del ancho de su contenedor */
     height: 20vh;
-    color: black;
+    color: cyan;
     position:relative;
     /*left: 20%;*/
     /*right: 80%;*/
@@ -115,12 +137,8 @@ inicio
     bottom: 10%;
     margin-top: 60px;
     margin-bottom: 250px;
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-    border-bottom: 4px solid white;
-    border-left: 4px solid white;
-    /*padding-left:15cm;
-    margin-right: 5px;*/
+    padding-left:13.5cm;
+    margin-right: 5px;
    
 }
 
@@ -138,24 +156,27 @@ sobre mi
 }
 
 .tituloh2{
-   
-    
-    position:absolute;
     height:50px;
     margin-left: 14cm;
+    margin-top: 0;
+    margin-bottom: 3px;
 
 }
 
 
 .presentacion{
     font-family:'staatliches';
-
-    position: absolute;
+    position:absolute;
     width: 100vh;
     height: 120px;
     margin-top: 300px;
     text-align: center;
     margin-left: 9.5cm ;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+   
    
 }
 
@@ -163,16 +184,7 @@ sobre mi
 /*##########################################################################################################################################
 herramientas
 ##########################################################################################################################################*/
-/*.herramientas{
-    flex-direction: row;  Asegura que los elementos de la lista estén en línea 
-    justify-content: space-between; 
-    background-color: darkblue;
-    color: blanchedalmond;
-    width: 100%; /* El div ocupará el 100% del ancho de su contenedor  
-    height: 20vh;  El div tendrá un alto equivalente al 50% del alto de la ventana de visualización */
-
-
-.tituloHerramientas{
+.titulo{
     
     font-family:'staatliches';
     font-size: 20px;
@@ -180,15 +192,15 @@ herramientas
     height: 1cm;
     width: auto;
     margin-left: 50px;
-    
-    
-    border-top: 4px solid white;
+    margin-top: 24px;
+    /*border-top: 4px solid white;
     border-right: 4px solid white;
     border-bottom: 4px solid white;
-    border-left: 4px solid white;
+    border-left: 4px solid white;*/
 
 }
-.listaHerramientas{
+.lista{
+    
     text-align: center;
     position:relative;
     height:20vh;
@@ -196,10 +208,10 @@ herramientas
     margin-right: 300px;
     margin-left: 300px;
     width: 100%;
-    border-top: 4px solid white;
+    /*border-top: 4px solid white;
     border-right: 4px solid white;
     border-bottom: 4px solid white;
-    border-left: 4px solid white;
+    border-left: 4px solid white;*/
 }
 
 /*##########################################################################################################################################
@@ -213,27 +225,7 @@ contacto
     height: 1cm;
     width: auto;
     margin-left: 50px;
-    
-    
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-    border-bottom: 4px solid white;
-    border-left: 4px solid white;
-
-    /*font-family:'staatliches';
-    font-size: 20px;
-    position:absolute;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 38%;
-    height: 1cm;
-    width: auto;
-    
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-    border-bottom: 4px solid white;
-    border-left: 4px solid white;*/
-
+    margin-top: 24px;
 }
 
 .listacontacto{
@@ -244,9 +236,4 @@ contacto
     margin-right: 300px;
     margin-left: 300px;
     width: auto;
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-    border-bottom: 4px solid white;
-    border-left: 4px solid white;
-
 }
