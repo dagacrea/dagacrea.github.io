@@ -9,8 +9,8 @@ a{
     color:blanchedalmond ;
 }
 img{
-    width:150px;
-    height: 150px;
+    width:20vh;
+    height:20vh;
     }
     
 span{
@@ -174,11 +174,13 @@ herramientas
 
 .tituloHerramientas{
     
-    font-family:"Rajdhani";
+    font-family:'staatliches';
     font-size: 20px;
-    position:relative;
+    position:absolute;
     height: 1cm;
     width: auto;
+    margin-left: 50px;
+    
     
     border-top: 4px solid white;
     border-right: 4px solid white;
@@ -189,8 +191,10 @@ herramientas
 .listaHerramientas{
     text-align: center;
     position:relative;
-    height:10vh;
-    margin-top: 2cm;
+    height:20vh;
+    margin-top: 0cm;
+    margin-right: 300px;
+    margin-left: 300px;
     width: 100%;
     border-top: 4px solid white;
     border-right: 4px solid white;
@@ -203,12 +207,43 @@ contacto
 ##########################################################################################################################################*/
 
 .titulocontacto{
-    font-family:"Rajdhani";
+    font-family:'staatliches';
     font-size: 20px;
-    position:relative;
+    position:absolute;
+    height: 1cm;
+    width: auto;
+    margin-left: 50px;
+    
+    
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+
+    /*font-family:'staatliches';
+    font-size: 20px;
+    position:absolute;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 38%;
     height: 1cm;
     width: auto;
     
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;*/
+
+}
+
+.listacontacto{
+    text-align: center;
+    position:relative;
+    height:20vh;
+    margin-top: 0cm;
+    margin-right: 300px;
+    margin-left: 300px;
+    width: auto;
     border-top: 4px solid white;
     border-right: 4px solid white;
     border-bottom: 4px solid white;
